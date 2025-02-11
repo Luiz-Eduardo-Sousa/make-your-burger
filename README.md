@@ -2,13 +2,13 @@
 
 ## Project setup
 ```
-npm install
+yarn install
 ```
 
 ### Compiles and hot-reloads for development
 ```
-npm run serve
-npm run backend
+json-server --watch db/db.json --port 3000
+yarn serve
 ```
 
 ### Compiles and minifies for production

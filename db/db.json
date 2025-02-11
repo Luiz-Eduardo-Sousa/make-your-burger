@@ -65,15 +65,15 @@
   },
   "status": [
     {
-      "id": 1,
+      "id": "1",
       "tipo": "Solicitado"
     },
     {
-      "id": 2,
+      "id": "2",
       "tipo": "Em produção"
     },
     {
-      "id": 3,
+      "id": "3",
       "tipo": "Finalizado"
     }
   ],
@@ -87,7 +87,7 @@
         "Cheddar"
       ],
       "status": "Em produção",
-      "id": 1
+      "id": "1"
     },
     {
       "nome": "Carlos Eduardo ",
@@ -99,7 +99,7 @@
         "Pepino"
       ],
       "status": "Finalizado",
-      "id": 2
+      "id": "2"
     },
     {
       "nome": "Gustavo Henrique",
@@ -111,7 +111,18 @@
         "Bacon"
       ],
       "status": "Em produção",
-      "id": 3
+      "id": "3"
+    },
+    {
+      "id": "26ab",
+      "nome": "Luiz",
+      "carne": "Maminha",
+      "pao": "Italiano Branco",
+      "opcionais": [
+        "Bacon",
+        "Tomate"
+      ],
+      "status": "Solicitado"
     }
   ]
 }

@@ -76,11 +76,10 @@
     methods: {
       async getIngredientes() {
   try {
-    const response = await fetch("https://sua-api.com/ingredientes");
+    const response = await fetch("http://localhost:3000/ingredientes");
     if (!response.ok) throw new Error(`Erro HTTP: ${response.status}`);
 
-    const data = await response.json(); // Atribuir a resposta da API à variável data
-
+    const data = await response.json();
     this.paes = data.paes;
     this.carnes = data.carnes;
     this.opcionaisdata = data.opcionais;
